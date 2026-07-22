@@ -58,9 +58,9 @@
 # print(f"name = {name}", type(name))
 # age = str(age)
 # print(f"age = {age}", type(age))
-# # age += 1
-# # age += "1"
-# # print(age)
+# age += 1
+# age += "1"
+# print(age)
 # age = float(age)
 # print(f"age = {age}", type(age))
 # gpa = int(gpa)
@@ -69,3 +69,36 @@
 # print(f"name = {name}", type(name))
 # name2 = bool(name2)
 # print(f"name2 = {name2}", type(name2))
+
+
+
+# input() = A function that prompts the user to data
+#           Return the entered data as a string
+
+# name = input("What is your name?: ")
+# age = int(input("How old are you?: "))
+# or you can typecast
+# age = int(age)
+# age = age +1
+
+# print(f"Hello {name}!")
+# print("Happy Birthday!")
+# print(f"You are {age} years old.")
+
+# Exercise 1 Rectangle Area Calc
+
+# length = float(input("Enter the lenght: "))
+# width = float(input("Enter the width: "))
+# area = length * width
+
+# print(f"The area is: {area} sqcm.")
+
+# Exercise 2 Shopping Cart Program
+
+# item = input("What item would you like to buy?: ")
+# price = float(input("What is the price?: "))
+# quantity = int(input("How many would you like?: "))
+# total = price * quantity
+
+# print(f"You have bought {quantity} x {item}/s")
+# print(f"Your total is: {total}฿")
